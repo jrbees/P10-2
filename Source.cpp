@@ -40,6 +40,7 @@ int main() {
     getline(cin, input);
     int letter_count = count_letters(input);
     int word_count = count_words(input);
-   
+    cout << "Number of letters: " << letter_count << endl;
+    cout << "Number of words: " << word_count << endl;
     return 0;
 }
